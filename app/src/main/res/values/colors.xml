@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_color">#003876</color>
+    <color name="theme_color_dark">#001c3b</color>
+    <color name="background_color">#F2F2F2</color>
+    <color name="border_color">#D2D2D2</color>
+
+    <color name="timetable_1">#86D0C2</color>
+    <color name="timetable_2">#F08676</color>
+    <color name="timetable_3">#A3C46B</color>
+    <color name="timetable_4">#D7A3D4</color>
+    <color name="timetable_5">#F4A563</color>
+    <color name="timetable_6">#7AA1DC</color>
+    <color name="timetable_7">#ECC369</color>
+    <color name="timetable_8">#ACABFB</color>
+</resources>

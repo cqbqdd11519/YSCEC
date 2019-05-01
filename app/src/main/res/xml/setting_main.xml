@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="Refresh"
+        android:title="@string/setting_refresh">
+        <SwitchPreference
+            android:key="enable_refresh"
+            android:title="@string/setting_enable_refresh"
+            android:summary="@string/setting_enable_refresh_summary"/>
+        <EditTextPreference
+            android:key="interval_minute"
+            android:title="@string/setting_refresh_interval"
+            android:summary="@string/setting_refresh_interval_summary"
+            android:defaultValue="30"/>
+        <Preference
+            android:key="refresh_list"
+            android:title="@string/setting_refresh_list"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Info"
+        android:title="@string/setting_info">
+        <Preference
+            android:key="made_by"
+            android:title="@string/made_by_text"
+            android:summary="@string/vingsu_lab_url"/>
+    </PreferenceCategory>
+</PreferenceScreen>

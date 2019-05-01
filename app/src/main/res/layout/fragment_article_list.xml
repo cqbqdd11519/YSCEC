@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true">
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/course_article_list"
+        android:visibility="gone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/no_list_tv"
+        android:visibility="gone"
+        android:text="@string/no_article"/>
+    <com.vingsu.yscec.Widget.TouchBlackHoleProgress
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/course_main_progress"/>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vingsu.yscec" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".YSCEC"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:required="false" android:name="com.sec.android.app.multiwindow" />
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true" />
+        <activity
+            android:name=".Activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Service.YSCECBackgroundService" >
+        </service>
+
+        <receiver
+            android:name=".Receiver.BootReceiver"
+            android:enabled="true" >
+            <intent-filter android:priority="1000000" >
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_setting"
+            android:theme="@style/AppTheme.WithActionBar" >
+        </activity>
+        <activity
+            android:name=".Activity.WebViewActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_web_view"
+            android:theme="@style/AppTheme.WithActionBar" >
+        </activity>
+    </application>
+
+</manifest>

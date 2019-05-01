@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/background_color"
+    android:padding="0dp">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:id="@+id/timetable_container">
+    </GridLayout>
+    <com.vingsu.yscec.Widget.TouchBlackHoleProgress
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/tt_progress"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

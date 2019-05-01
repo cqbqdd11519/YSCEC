@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">YSCEC</string>
+    <string name="made_by_text">VINGSU Lab.</string>
+    <string name="vingsu_lab_url">http://lab.vingsu.com</string>
+
+    <string name="title_activity_content">Content</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="title_activity_setting">설정</string>
+
+    <string name="navigation_drawer_open">메뉴 열기</string>
+    <string name="navigation_drawer_close">메뉴 닫기</string>
+
+    <string name="action_settings">설정</string>
+    <string name="action_logout">로그아웃</string>
+
+    <string name="error">오류</string>
+    <string name="only_in_web">이 게시판의 글은 어플리케이션에서 확인할 수 없습니다.\n&lt;br/&gt;웹 브라우저로 확인해주세요.</string>
+    <string name="cant_load_timetable">시간표를 불러올 수 없습니다.</string>
+    <string name="cant_load_calendar">학사일정을 불러올 수 없습니다.</string>
+    <string name="cant_load_content">글을 열 수 없습니다.</string>
+    <string name="cant_load_notice">공지사항을 불러올 수 없습니다.</string>
+    <string name="cant_login">로그인 실패</string>
+    <string name="no_mail_address">메일 주소가 없습니다.</string>
+    <string name="no_activity_to_mail">메일을 보낼 수 있는 어플리케이션이 없습니다.</string>
+    <string name="no_activity_to_url">링크를 열 수 있는 어플리케이션이 없습니다.</string>
+
+    <string name="login_txt">로그인</string>
+    <string name="login_id">아이디(학번)</string>
+    <string name="login_pw">비밀번호</string>
+
+    <string name="year_text">년</string>
+    <string name="term_text">학기</string>
+
+    <string name="attachment_text">첨부파일</string>
+    <string name="start_download">다운로드 시작</string>
+
+    <string name="day_mon">월요일</string>
+    <string name="day_tues">화요일</string>
+    <string name="day_wednes">수요일</string>
+    <string name="day_thurs">목요일</string>
+    <string name="day_fri">금요일</string>
+
+
+    <string name="day_mon_short">월</string>
+    <string name="day_tues_short">화</string>
+    <string name="day_wednes_short">수</string>
+    <string name="day_thurs_short">목</string>
+    <string name="day_fri_short">금</string>
+    <string name="day_sat_short">토</string>
+    <string name="day_sun_short">일</string>
+
+    <string name="course_notice">강의 공지사항</string>
+    <string name="no_article">공지가 없습니다.</string>
+
+    <string name="lesson_plan_text">강의 계획서</string>
+    <string name="timetable_text">강의\n시간표</string>
+    <string name="calendar_text">학사\n일정</string>
+    <string name="timetable_period">교시</string>
+    <string name="recent_articles_text">최근 공지사항</string>
+
+    <string name="on_backpress">\'뒤로\' 버튼을 한 번 더 누르시면 종료됩니다.</string>
+
+    <string name="setting_refresh">알림 설정</string>
+    <string name="setting_enable_refresh">알림 활성화</string>
+    <string name="setting_enable_refresh_summary">백그라운드에서 YSCEC 공지 새로고침</string>
+    <string name="setting_refresh_interval">새로고침 주기</string>
+    <string name="setting_refresh_interval_summary">YSCEC 공지 새로고침 주기(분)</string>
+    <string name="setting_refresh_list">알림 리스트 설정</string>
+
+    <string name="setting_info">제작</string>
+
+    <string name="description_logo">연세대핵교 로고</string>
+    <string name="description_noti_icon">알림 켬/끔 버튼</string>
+    <string name="subscribe_title">알림 설정</string>
+    <string name="subscribe_message">이 게시판의 새 게시글 알림을 받습니다.</string>
+    <string name="unsubscribe_title">알림 해제</string>
+    <string name="unsubscribe_message">더이상 이 게시판의 새 게시글 알림을 받지 않습니다.</string>
+    <string name="toast_subscribed">게시판 알림을 받습니다.</string>
+    <string name="toast_unsubscribed">게시판 알림을 받지 않습니다.</string>
+    <string name="number_of_noti_text"> 개의 새 게시글이 있습니다.</string>
+    <string name="noti_text"> 알림</string>
+
+    <string name="ok_text">확인</string>
+    <string name="cancel_text">취소</string>
+</resources>

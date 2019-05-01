@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:clickable="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/calendar_head"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendar_hyhg"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendar_month"/>
+    </LinearLayout>
+    <com.vingsu.yscec.Widget.SchoolCalendar
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/school_calendar"
+        android:layout_below="@id/calendar_head"
+        android:layout_margin="0dp"/>
+    <com.vingsu.yscec.Widget.TouchBlackHoleProgress
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/cd_progress"
+        android:visibility="gone"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

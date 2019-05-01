@@ -1,0 +1,29 @@
+<android.support.v4.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipeRefresh">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity$PlaceholderFragment"
+        android:background="@color/background_color">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/year_term"/>
+        <ExpandableListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/notice_list"
+            android:layout_below="@id/year_term"
+            android:groupIndicator="@android:color/transparent"/>
+        <com.vingsu.yscec.Widget.TouchBlackHoleProgress
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/main_progress"
+            android:visibility="gone"
+            android:layout_centerInParent="true"/>
+</RelativeLayout>
+</android.support.v4.widget.SwipeRefreshLayout>
